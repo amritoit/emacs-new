@@ -56,8 +56,7 @@
 ;; Install extensions if they're missing
 (defun init--install-packages ()
   (packages-install
-   '(magit
-     edn
+   '(edn
      inflections
      hydra
      paredit
@@ -73,7 +72,6 @@
      flx
      f
      flx-ido
-     dired-details
      css-eldoc
      yasnippet
      smartparens
@@ -120,13 +118,12 @@
 ;; Setup extensions
 (eval-after-load 'ido '(require 'setup-ido))
 (eval-after-load 'org '(require 'setup-org))
-(eval-after-load 'dired '(require 'setup-dired))
-(eval-after-load 'magit '(require 'setup-magit))
+;;(eval-after-load 'dired '(require 'setup-dired))
 (eval-after-load 'grep '(require 'setup-rgrep))
 (eval-after-load 'shell '(require 'setup-shell))
 (require 'setup-hippie)
 (require 'setup-yasnippet)
-(require 'setup-perspective)
+;;(require 'setup-perspective)
 (require 'setup-ffip)
 (require 'setup-html-mode)
 (require 'setup-paredit)
@@ -213,7 +210,7 @@
 (require 'key-bindings)
 
 ;; Misc
-(require 'project-archetypes)
+;;(require 'project-archetypes)
 (require 'my-misc)
 (when is-mac (require 'mac))
 
@@ -234,3 +231,15 @@
 ;; Conclude init by setting up specifics for the current user
 (when (file-exists-p user-settings-dir)
   (mapc 'load (directory-files user-settings-dir nil "^[^#].*el$")))
+
+;;;;load theme
+(disable-theme 'default-black)
+(load-theme 'cobalt-amrit)
+
+;;;ssetting font
+(add-to-list 'default-frame-alist '(font . "Menlo regular 11"))
+
+;;;;;;;;;;;;;;;;;;;zoom in, zoom out
+(global-set-key (kbd "M-=")  'text-scale-increase)
+(global-set-key (kbd "M--")  'text-scale-decrease)
+

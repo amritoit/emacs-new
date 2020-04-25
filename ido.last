@@ -1,0 +1,96 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("c:/Users/ammondal/AppData/Roaming/" . ".emacs.d/")
+ ("c:/Users/ammondal/AppData/" . "Roaming/")
+ ("c:/Users/ammondal/source/repos/taskfabric-data-ops/pipeline/" . "dags/")
+ ("c:/Users/ammondal/source/repos/taskfabric-data-ops/" . "pipeline/")
+ ("c:/Users/ammondal/source/repos/" . "taskfabric-data-privacy/")
+ ("c:/Users/ammondal/source/" . "repos/")
+ ("c:/Users/ammondal/Documents/amrit-code/corona-stat/src/" . "handlers/")
+ ("c:/Users/ammondal/Documents/amrit-code/corona-stat/" . "src/")
+ ("c:/Users/ammondal/Documents/amrit-code/" . "prog/")
+ ("c:/Users/ammondal/Documents/" . "amrit-code/")
+ ("c:/Users/ammondal/" . "AppData/")
+ ("c:/Users/" . "ammondal/")
+ ("c:/" . "Users/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "c:/Users/ammondal/AppData/Roaming/.emacs.d/"
+ "c:/Users/ammondal/Documents/amrit-code/prog/"
+ "c:/Users/ammondal/Documents/amrit-code/corona-stat/"
+ "c:/Users/ammondal/Documents/amrit-code/"
+ "c:/Users/ammondal/Documents/amrit-code/corona-stat/src/"
+ "c:/Users/ammondal/Documents/amrit-code/corona-stat/src/handlers/"
+ "c:/Users/ammondal/source/repos/taskfabric-data-privacy/"
+ "c:/Users/ammondal/source/repos/taskfabric-data-ops/pipeline/dags/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "rotate.py"
+ "requirements.txt"
+ "test.py"
+ "app.py"
+ "data_handlers.py"
+ "main_handler.py"
+ "readme.md"
+ "pcf.py"
+ "main.py"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("c:/Users/ammondal/AppData/Roaming/.emacs.d/" (24191 37742 0 0) "var/" "users/" "transient/" "themes/" "snippets/" "site-lisp/" "settings/" "server/" "recentf" "README.md" "project-archetypes/" "init.el" "ido.last" "history" "elpa/" "defuns/" "custom.el" "backups/" "auto-save-list/" ".mc-lists.el" ".gitmodules" ".gitignore" ".git/" "../" "./")
+
+ ("c:/Users/ammondal/AppData/Roaming/" (24188 48815 0 0) "Zoom/" "vs_installershell/" "vstelemetry/" "Visual Studio Setup/" "Sun/" "Skype/" "NuGet/" "npm-cache/" "npm/" "Mozilla/" "Microsoft Teams/" "Microsoft/" "JetBrains/" "java/" "GitHub Desktop/" "Code/" "Adobe/" ".smex-items" ".emacs.d/" "../" "./")
+
+ ("c:/Users/ammondal/Documents/amrit-code/prog/" (24192 24331 0 0) "rotate.py" "../" "./")
+
+ ("c:/Users/ammondal/Documents/amrit-code/" (24192 24227 0 0) "test.py" "spark-handson/" "prog/" "corona-stat-ui/" "corona-stat/" "../" "./")
+
+ ("c:/Users/ammondal/Documents/amrit-code/corona-stat/" (24191 37782 0 0) "src/" "requirements.txt" "Procfile" "corona-serv.log" ".gitignore" ".git/" "../" "./")
+
+ ("c:/Users/ammondal/Documents/amrit-code/corona-stat/src/" (24190 28618 0 0) "handlers/" "app.py" "../" "./")
+
+ ("c:/Users/ammondal/Documents/amrit-code/corona-stat/src/handlers/" (24190 28527 0 0) "__pycache__/" "main_handler.py" "data_handlers.py" "../" "./")
+
+ ("c:/Users/ammondal/Documents/" (24188 64714 0 0) "Wondershare Filmora 9/" "Visual Studio 2019/" "my-fonts/" "My Videos/" "My Pictures/" "My Music/" "mobile_backup/" "desktop.ini" "Default.rdp" "Custom Office Templates/" "amrit-code/" "../" "./")
+
+ ("c:/Users/ammondal/" (24189 56365 0 0) "Videos/" "Templates/" "Start Menu/" "source/" "SendTo/" "Searches/" "Saved Games/" "Recent/" "PrintHood/" "Pictures/" "OneDrive/" "ntuser.pol" "ntuser.ini" "NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TM.blf" "NTUSER.DAT{fd9a35da-49fe-11e9-aa2c-248a07783950}.TxR.blf" "NTUSER.DAT{fd9a35da-49fe-11e9-aa2c-248a07783950}.TxR.2.regtrans-ms" "NTUSER.DAT{fd9a35da-49fe-11e9-aa2c-248a07783950}.TxR.1.regtrans-ms" "NTUSER.DAT{fd9a35da-49fe-11e9-aa2c-248a07783950}.TxR.0.regtrans-ms" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "MicrosoftEdgeBackups/" "Local Settings/" "Links/" "IntelGraphicsProfiles/" "Favorites/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Application Data/" "Apple/" "AppData/" "3D Objects/" ".vscode/" ".templateengine/" ".sbt/" ".nuget/" ".ivy2/" ".IdeaIC2019.3/" ".idea-build/" ".gitconfig" ".dotnet/" ".config/" ".android/" "../" "./")
+
+ ("c:/Users/ammondal/Downloads/" (24186 64584 0 0) "zopener_8a4800ea0a3f43f4bafd7706c1a4e7ee.log" "Zoom_o42l8sofizku_24815be06c7f4757.exe" "yarn-1.22.4.msi" "Yammer-ia32-3.4.5.exe" "VSCodeUserSetup-x64-1.43.0.exe" "node-v12.16.1-x64.msi" "n1ga509w.exe" "GitHubDesktopSetup.exe" "email.pdf" "desktop.ini" "../" "./")
+
+ ("c:/Users/ammondal/source/repos/taskfabric-data-privacy/" (24184 28377 0 0) "ToDoPrivacyAgent.sln" "ToDoPrivacyAgent/" "readme.md" "nuget.config" ".vs/" ".gitignore" ".gitattributes" ".git/" "../" "./")
+
+ ("c:/Users/ammondal/Documents/amrit-code/corona-stat-ui/" (24185 3892 0 0) "yarn.lock" "src/" "server.js" "README.md" "public/" "package.json" "node_modules/" "babel.config.js" ".gitignore" ".git/" "../" "./")
+
+ ("c:/Users/ammondal/source/repos/taskfabric-data-ops/pipeline/dags/" (24184 29381 0 0) "__init__.py" "reporting.py" "raw_server_event.py" "raw_event.py" "profiles.py" "privacy.py" "pcf.py" "operators.py" "main.py" "dimensions.py" "azure_data_lake_storage.py" ".#pcf.py" "#pcf.py#" "#main.py#" "../" "./")
+
+ ("c:/Users/ammondal/source/repos/taskfabric-data-pipeline/" (24184 27941 0 0) "version.sbt" "src/" "README.md" "project/" "metadata/" "lib/" "db/" "build.sbt" "branchPolicy.yaml" "azure-pipelines.yml" ".vs/" ".gitmodules" ".gitignore" ".git/" "../" "./")
+
+ ("c:/Users/ammondal/source/repos/" (24184 28364 0 0) "taskfabric-data-privacy/" "taskfabric-data-pipeline/" "taskfabric-data-ops/" "../" "./")
+
+ ("c:/Users/ammondal/AppData/" (24175 22780 0 0) "Roaming/" "LocalLow/" "Local/" "../" "./")
+
+ ("c:/Users/ammondal/source/repos/taskfabric-data-ops/pipeline/" (24184 28065 0 0) "__init__.py" "webserver_config.py" "unittests.cfg" "requirements.txt" "dags/" "airflow.cfg" "../" "./")
+
+ ("c:/Users/ammondal/source/repos/taskfabric-data-ops/" (24184 28075 0 0) "systemd/" "README.md" "pipeline/" "metadata/" "branchPolicy.yaml" "azure-pipelines.yml" "avocado/" ".vs/" ".gitignore" ".git/" "../" "./")
+
+ ("c:/Users/ammondal/source/" (24184 26040 0 0) "repos/" "../" "./")
+
+ ("c:/Users/" (24175 22780 0 0) "Public/" "desktop.ini" "Default User/" "Default/" "ammondal/" "All Users/" "Administrator/" "../" "./")
+
+ ("c:/my-software/" (24179 29580 0 0) "emacs-26/" "../" "./")
+
+ ("c:/my-software/emacs-26/" (24179 29120 0 0) "ssl/" "share/" "libexec/" "lib/" "include/" "etc/" "bin/" "../" "./")
+
+ ("c:/my-software/emacs-26/bin/" (24179 28511 0 0) "zlib1.dll" "xzmore" "xzless" "xzgrep" "xzfgrep" "xzegrep" "xzdiff" "xzdec.exe" "xzcmp" "xzcat.exe" "xz.exe" "xmlwf.exe" "xmllint.exe" "xmlcatalog.exe" "xml2-config" "xgettext.exe" "x86_64-w64-mingw32-tset.exe" "x86_64-w64-mingw32-tput.exe" "x86_64-w64-mingw32-toe.exe" "x86_64-w64-mingw32-tic.exe" "x86_64-w64-mingw32-tabs.exe" "x86_64-w64-mingw32-reset.exe" "x86_64-w64-mingw32-infotocap.exe" "x86_64-w64-mingw32-infocmp.exe" "x86_64-w64-mingw32-clear.exe" "x86_64-w64-mingw32-captoinfo.exe" "x86_64-w64-mingw32-agrep.exe" "wrjpgcom.exe" "wish86.exe" "wish.exe" "update-ca-trust" "unxz.exe" "trust.exe" "transicc.exe" "tk86.dll" "tjbench.exe" "tificc.exe" "tiffsplit.exe" "tiffset.exe" "tiffmedian.exe" "tiffinfo.exe" "tiffdump.exe" "tiffdither.exe" "tiffcrop.exe" "tiffcp.exe" "tiffcmp.exe" "tiff2rgba.exe" "tiff2ps.exe" "tiff2pdf.exe" "tiff2bw.exe" "tclsh86.exe" "tclsh.exe" "tcl86.dll" "ssleay32.dll" "srptool.exe" "sqlite3_analyzer.sh" "sexp-conv.exe" "runemacs.exe" "rsvg-view-3.exe" "rsvg-convert.exe" "recode-sr-latin.exe" "rdjpgcom.exe" "raw2tiff.exe" "python2w.exe" "python2.exe" "python2.7.exe" "python2.7-config" "python2-config" "python.exe" "python-config.sh" "python-config-u.sh" "python-config" "pydoc" "psktool.exe" "psicc.exe" "ppm2tiff.exe" "pngfix.exe" "png-fix-itxt.exe" "pkcs1-conv.exe" "pcretest.exe" "pcregrep.exe" "pcre-config" "pango-view.exe" "pal2rgb.exe" "p11tool.exe" "p11-kit.exe" "openssl.exe" "ocsptool.exe" "ngettext.exe" "nettle-pbkdf2.exe" "nettle-lfib-stream.exe" "nettle-hash.exe" "ncursesw6-config" "msguniq.exe" "msgunfmt.exe" "msgmerge.exe" "msginit.exe" "msggrep.exe" "msgfmt.exe" "msgfilter.exe" "msgexec.exe" "msgen.exe" "msgconv.exe" "msgcomm.exe" "msgcmp.exe" "msgcat.exe" "msgattrib.exe" "minizip.exe" "miniunzip.exe" "lzmainfo.exe" "lzmadec.exe" "linkicc.exe" "libXpm-noX4.dll" "libxml2-2.dll" "libwinpthread-1.dll" "libunistring-2.dll" "libturbojpeg-0.dll" "libtre-5.dll" "libtiffxx-5.dll" "libtiff-5.dll" "libtermcap-0.dll" "libtasn1-6.dll" "libsystre-0.dll" "libstdc++-6.dll" "libssp-0.dll" "librsvg-2-2.dll" "libreadline7.dll" "libquadmath-0.dll" "libpython2.7.dll" "libpng16-config" "libpng16-16.dll" "libpng-config" "libpixman-1-0.dll" "libpcreposix-0.dll" "libpcrecpp-0.dll" "libpcre32-0.dll" "libpcre16-0.dll" "libpcre-1.dll" "libpangowin32-1.0-0.dll" "libpangoft2-1.0-0.dll" "libpangocairo-1.0-0.dll" "libpango-1.0-0.dll" "libp11-kit-0.dll" "libnettle-6.dll" "libminizip-1.dll" "liblzo2-2.dll" "liblzma-5.dll" "liblcms2-2.dll" "libjpeg-8.dll" "libjasper-4.dll" "libintl-8.dll" "libidn2-0.dll" "libiconv-2.dll" "libhogweed-4.dll" "libhistory7.dll" "libharfbuzz-icu-0.dll" "libharfbuzz-gobject-0.dll" "libharfbuzz-0.dll" "libgthread-2.0-0.dll" "libgraphite2.dll" "libgomp-1.dll" "libgobject-2.0-0.dll" "libgnutlsxx-28.dll" "libgnutls-30.dll" "libgmpxx-4.dll" "libgmp-10.dll" "libgmodule-2.0-0.dll" "libglib-2.0-0.dll" "libgio-2.0-0.dll" "libgif-7.dll" "libgettextsrc-0-19-8-1.dll" "libgettextpo-0.dll" "libgettextlib-0-19-8-1.dll" "libgdk_pixbuf-2.0-0.dll" "libgdbm-4.dll" "libgcc_s_seh-1.dll" "libfreetype-6.dll" "libfreeglut.dll" "libfontconfig-1.dll" "libffi-6.dll" "libexpat-1.dll" "libeay32.dll" "libcroco-0.6-3.dll" "libcharset-1.dll" "libcairo-script-interpreter-2.dll" "libcairo-gobject-2.dll" "libcairo-2.dll" "libbz2-1.dll" "libatomic-1.dll" "libasprintf-0.dll" "jpgicc.exe" "jpegtran.exe" "jasper.exe" "imginfo.exe" "imgcmp.exe" "idn2.exe" "idle" "hb-view.exe" "hb-shape.exe" "hb-ot-shape-closure.exe" "gspawn-win64-helper.exe" "gspawn-win64-helper-console.exe" "gsettings.exe" "gresource.exe" "gr2fonttest.exe" "gobject-query.exe" "gnutls-serv.exe" "gnutls-cli.exe" "gnutls-cli-debug.exe" "glib-mkenums.exe" "glib-mkenums-script.py" "glib-gettextize" "glib-genmarshal.exe" "glib-genmarshal-script.py" "glib-compile-schemas.exe" "glib-compile-resources.exe" "gio.exe" "gio-querymodules.exe" "gettextize" "gettext.sh" "gettext.exe" "gdk-pixbuf-thumbnailer.exe" "gdk-pixbuf-query-loaders.exe" "gdk-pixbuf-pixdata.exe" "gdk-pixbuf-csource.exe" "gdbus.exe" "gdbus-codegen.exe" "gdbus-codegen-script.py" "gdbm_load.exe" "gdbm_dump.exe" "gdbmtool.exe" "freetype-config" "fc-validate.exe" "fc-scan.exe" "fc-query.exe" "fc-pattern.exe" "fc-match.exe" "fc-list.exe" "fc-cat.exe" "fc-cache.exe" "fax2tiff.exe" "fax2ps.exe" "etags.exe" "envsubst.exe" "emacsclientw.exe" "emacsclient.exe" "emacs.exe" "emacs-26.3.exe" "edit_test_dll.exe" "edit_test.exe" "edit.dll" "ebrowse.exe" "djpeg.exe" "cxpm-noX.exe" "ctags.exe" "csslint-0.6.exe" "croco-0.6-config" "cjpeg.exe" "certtool.exe" "bzmore" "bzless" "bzip2recover.exe" "bzip2.exe" "bzgrep" "bzfgrep" "bzegrep" "bzdiff" "bzcmp" "bzcat.exe" "bunzip2.exe" "autopoint" "asn1Parser.exe" "asn1Decoding.exe" "asn1Coding.exe" "addpm.exe" "2to3" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

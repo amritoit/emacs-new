@@ -1,0 +1,33 @@
+(deftheme cobalt-amrit
+  "Created 2020-03-19.")
+
+(custom-theme-set-faces
+ 'cobalt-amrit
+ '(cursor ((t (:background "#A7A7A7"))))
+ '(border ((t (:foreground "black"))))
+ '(font-lock-builtin-face ((t (:foreground "#40FFB9"))))
+ '(font-lock-comment-face ((t (:foreground "#008AFF"))))
+ '(font-lock-constant-face ((t (:foreground "#FF518C"))))
+ '(font-lock-doc-face ((t (:foreground "#008AFF"))))
+ '(font-lock-function-name-face ((t (:foreground "#FFDD00"))))
+ '(font-lock-keyword-face ((t (:foreground "#FA9E18"))))
+ '(font-lock-preprocessor-face ((t (:foreground "#8090A2"))))
+ '(font-lock-builtin-face ((t (:foreground "#E9C062"))))
+ '(font-lock-regexp-grouping-construct ((t (:foreground "red"))))
+ '(font-lock-string-face ((t (:foreground "#42D915"))))
+ '(font-lock-type-face ((t (:foreground "#FFEF79"))))
+ '(font-lock-variable-name-face ((t (:foreground "#CCCCCC"))))
+ '(font-lock-warning-face ((t (:foreground "Pink"))))
+ '(hl-line ((t (:background "#00162A"))))
+ '(region ((t (:background "#444444"))))
+ '(highlight ((t (:background "#26425D"))))
+ '(show-paren-match ((t (:background "#26425D"))))
+ '(show-paren-mismatch ((t (:background "#FF0000"))))
+ '(minibuffer-prompt ((t (:foreground "#008AFF"))))
+ '(italic ((t (nil))))
+ '(ido-subdir ((t (:foreground "#008AFF"))))
+ '(ido-only-match ((t (:foreground "#42D915"))))
+ '(underline ((nil (:underline nil))))
+ '(default ((t (:background "#0e2219" :foreground "#F8F8F8")))))
+
+(provide-theme 'cobalt-amrit)
