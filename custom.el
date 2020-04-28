@@ -9,7 +9,7 @@
  '(ido-use-filename-at-point nil)
  '(package-selected-packages
    (quote
-    (on-screen yascroll smooth-scrolling sublimity ag elpy auto-complete color-theme-modern github-modern-theme yesql-ghosts yasnippet whitespace-cleanup-mode visual-regexp string-edit smartparens simple-httpd restclient prodigy paredit nodejs-repl move-text markdown-mode inflections ido-vertical-mode ido-at-point hydra htmlize highlight-escape-sequences guide-key groovy-mode git-commit gist flycheck-pos-tip flycheck-clojure flx-ido fill-column-indicator elisp-slime-nav edn dockerfile-mode css-eldoc clojure-mode-extra-font-locking)))
+    (py-autopep8 py-isort on-screen yascroll smooth-scrolling sublimity ag elpy auto-complete color-theme-modern github-modern-theme yesql-ghosts yasnippet whitespace-cleanup-mode visual-regexp string-edit smartparens simple-httpd restclient prodigy paredit nodejs-repl move-text markdown-mode inflections ido-vertical-mode ido-at-point hydra htmlize highlight-escape-sequences guide-key groovy-mode git-commit gist flycheck-pos-tip flycheck-clojure flx-ido fill-column-indicator elisp-slime-nav edn dockerfile-mode css-eldoc clojure-mode-extra-font-locking)))
  '(safe-local-variable-values
    (quote
     ((eval font-lock-add-keywords nil

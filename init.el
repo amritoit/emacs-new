@@ -294,3 +294,59 @@
 (add-hook 'text-mode-hook 'turn-on-visual-line-mode)
 (display-time-mode 1)
 (add-hook 'prog-mode-hook 'linum-mode)
+
+;;;;;;;;;;;python mode hooks
+(setq auto-mode-alist
+      (cons '("\\.py$" . python-mode) auto-mode-alist))
+(setq auto-mode-alist
+      (cons '("\\.python$" . python-mode) auto-mode-alist))
+
+;;;;python code formatting
+(require 'py-autopep8)
+(require 'py-isort)
+(add-hook 'python-mode-hook 'py-autopep8-enable-on-save)
+(add-hook 'before-save-hook 'py-isort-before-save)
+;
+;;enable jedi autocompletion in python
+;; (add-hook 'python-mode-hook 'jedi:ac-setup)
+;;(add-hook 'python-mode-hook 'jedi:setup)
+(add-hook 'python-mode-hook 'elpy-enable)
+;;(setq jedi:complete-on-dot t)
+(setq tab-width 4)
+(set-variable 'py-indent-offset 4)
+(set-variable 'python-indent-guess-indent-offset nil)
+
+
+;;highlight indent for python configured for cobalt theme
+;;https://github.com/DarthFennec/highlight-indent-guides
+(add-hook 'python-mode-hook 'highlight-indent-guides-mode)
+(setq highlight-indent-guides-method 'character)
+(setq highlight-indent-guides-character ?\|)
+(setq highlight-indent-guides-auto-odd-face-perc 15)
+(setq highlight-indent-guides-auto-even-face-perc 15)
+(setq highlight-indent-guides-auto-character-face-perc 17)
+(setq highlight-indent-guides-delay 0)
+
+;;;;;;;global autocomplete on
+(global-auto-complete-mode t)
+
+;;;;;;;js-mode
+;;;;;; start eslint server command 'eslint_d start'
+(add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
+(add-to-list 'auto-mode-alist '("\\.vue\\'" . vue-html-mode))
+(add-hook 'js2-mode-hook 'eslintd-fix-mode)
+
+
+;;;;;;;;;;;;;;;common header for new file
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; auto insert headers
+(load "~/.emacs.d/header2.el")
+(add-hook 'c-mode-common-hook   'auto-make-header)
+(add-hook 'python-mode-hook   'auto-make-header)
+(add-hook 'write-file-hooks 'auto-update-file-header)
+
+;;;;;;;;Window navigation
+(global-set-key (kbd "C-x <up>") 'windmove-up)
+(global-set-key (kbd "C-x <down>") 'windmove-down)
+(global-set-key (kbd "C-x <right>") 'windmove-right)
+(global-set-key (kbd "C-x <left>") 'windmove-left)
